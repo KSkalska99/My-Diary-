@@ -13,7 +13,7 @@
         </Grid.ColumnDefinitions>
         <Label Grid.Column="1" Content="&#x9;        MY DIARY " HorizontalAlignment="Left" Height="94" Margin="52,72,0,0" VerticalAlignment="Top" Width="663" AutomationProperties.Name="main_label" Background="#FFEED5F0" FontSize="36" FontFamily="Gill Sans Nova Light"/>
         <Button Grid.Column="1" Content="Login" HorizontalAlignment="Left" Height="77" Margin="108,342,0,0" VerticalAlignment="Top" Width="190" AutomationProperties.Name="login_btn" Background="#FF9ADFE5" FontSize="24" Click="Button_Click"/>
-        <Button Grid.Column="1" Content="Create Account" HorizontalAlignment="Left" Height="77" Margin="426,342,0,0" VerticalAlignment="Top" Width="189" Background="#FF9ADFE5" FontSize="24" AutomationProperties.Name="cr_acc_btn"/>
+        <Button Grid.Column="1" Content="Create Account" HorizontalAlignment="Left" Height="77" Margin="426,342,0,0" VerticalAlignment="Top" Width="189" Background="#FF9ADFE5" FontSize="24" AutomationProperties.Name="cr_acc_btn" Click="Button_Click_1"/>
         <Label x:Name="Hello_lbl" Grid.Column="1" Content="Hello ! Please log into your diary" HorizontalAlignment="Left" Height="75" Margin="148,205,0,0" VerticalAlignment="Top" Width="441" FontSize="45" FontFamily="Freestyle Script" RenderTransformOrigin="0.5,0.5">
             <Label.RenderTransform>
                 <TransformGroup>

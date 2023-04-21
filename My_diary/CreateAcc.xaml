@@ -1,0 +1,18 @@
+﻿<Window x:Class="My_diary.CreateAcc"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:My_diary"
+        mc:Ignorable="d"
+        Title="CreateAcc" Height="450" Width="800">
+    <Grid Height="636" VerticalAlignment="Top" Margin="0,0,-71,0">
+        <Label Content="&#x9;        MY DIARY " HorizontalAlignment="Center" Height="94" Margin="0,35,0,0" VerticalAlignment="Top" Width="664" AutomationProperties.Name="main_label" Background="#FFEED5F0" FontSize="36" FontFamily="Gill Sans Nova Light"/>
+        <TextBox x:Name="AccCr_log_txtBox" HorizontalAlignment="Left" Height="61" Margin="201,156,0,0" TextWrapping="Wrap" Text="Login" VerticalAlignment="Top" Width="242" FontSize="26" Background="#FFDBF7F7"/>
+        <TextBlock x:Name="AccCr_pswd_txtBox" HorizontalAlignment="Left" Height="60" Margin="201,240,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Width="242" FontSize="26" Background="#FFDBF7F6"/>
+        <TextBlock x:Name="AccCr_email_txtBox" HorizontalAlignment="Left" Height="60" Margin="201,322,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="242" FontSize="26" Background="#FFDBF7F6"><Run Language="pl-pl" Text="Email"/></TextBlock>
+        <Button x:Name="ok_cracc_btn" Content="CREATE" HorizontalAlignment="Left" Height="55" Margin="575,186,0,0" VerticalAlignment="Top" Width="129" Background="#FFDAF9CC"/>
+        <Button x:Name="cancel_cracc_btn" Content="CANCEL" HorizontalAlignment="Left" Height="55" Margin="575,318,0,0" VerticalAlignment="Top" Width="133" Background="#FFE4ACAC" Click="cancel_log_btn_Click"/>
+
+    </Grid>
+</Window>

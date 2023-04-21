@@ -10,33 +10,25 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace My_diary
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for CreateAcc.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class CreateAcc : Window
     {
-        public MainWindow()
+        public CreateAcc()
         {
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void cancel_log_btn_Click(object sender, RoutedEventArgs e)
         {
-           LoginDataView objLoginDataView = new LoginDataView();
+            MainWindow objMainWdw = new MainWindow();
             this.Visibility = Visibility.Hidden;
-            objLoginDataView.Show();
-        }
-
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-            CreateAcc objCreateAcc = new CreateAcc();
-            this.Visibility = Visibility.Hidden;
-            objCreateAcc.Show();
+            objMainWdw.Show();
         }
     }
 }
