@@ -1,0 +1,23 @@
+﻿<Window x:Class="My_diary.Sheet"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:My_diary"
+        mc:Ignorable="d"
+        Title="Sheet" Height="450" Width="800">
+    <Grid>
+        <TextBox HorizontalAlignment="Left" Height="193" Margin="32,122,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="723" Background="#FFDBF1F4" AutomationProperties.Name="note_box" FontFamily="Dubai"/>
+        <Label Content="&#x9;&#x9;&#x9;WRITE NOTE" HorizontalAlignment="Left" Height="51" Margin="32,29,0,0" VerticalAlignment="Top" Width="723" Background="#FFFBCFFC" FontSize="24" AutomationProperties.Name="note_lbl">
+            <Label.BorderBrush>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FFE897E9" Offset="1"/>
+                </LinearGradientBrush>
+            </Label.BorderBrush>
+        </Label>
+        <Button Content="SAVE" HorizontalAlignment="Left" Height="38" Margin="50,352,0,0" VerticalAlignment="Top" Width="156" Background="#FF94FFF0"/>
+        <Button Content="CANCEL" HorizontalAlignment="Left" Height="38" Margin="488,352,0,0" VerticalAlignment="Top" Width="154" Background="#FF94FFE9" AutomationProperties.Name="cancel_btn"/>
+
+    </Grid>
+</Window>

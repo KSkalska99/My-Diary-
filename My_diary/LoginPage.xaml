@@ -1,0 +1,27 @@
+﻿<Window x:Class="My_diary.LoginPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:My_diary"
+        mc:Ignorable="d"
+        Title="LoginPage" Height="450" Width="800">
+    <Grid>
+        <Label Content="      Login to your diary" HorizontalAlignment="Left" Height="76" Margin="134,20,0,0" VerticalAlignment="Top" Width="511" FontSize="36" AutomationProperties.Name="login_lbl" Background="#FFF0CFEE" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="-0.138"/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="-0.616"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <TextBox HorizontalAlignment="Left" Height="36" Margin="245,141,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="176" Background="#FF70F3EE" FontSize="24" Opacity="0.495" AutomationProperties.Name="login_box"/>
+        <Label Content="Login" HorizontalAlignment="Left" Height="53" Margin="10,141,0,0" VerticalAlignment="Top" Width="141" AutomationProperties.Name="login_lbl" FontSize="24"/>
+        <Label Content="Password" HorizontalAlignment="Left" Height="51" Margin="10,199,0,0" VerticalAlignment="Top" Width="108" AutomationProperties.Name="pswd_lbl" FontSize="24"/>
+        <Button Content="OK" HorizontalAlignment="Left" Height="77" Margin="222,318,0,0" VerticalAlignment="Top" Width="213" Background="#FFB4E9EB" IsEnabled="False" AutomationProperties.Name="login_ok_btn"/>
+        <TextBox HorizontalAlignment="Left" Height="33" Margin="245,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="176" FontSize="24" AutomationProperties.Name="pswd_box" Background="#FF70F3EE" Opacity="0.5"/>
+
+    </Grid>
+</Window>
