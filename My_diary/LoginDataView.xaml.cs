@@ -30,5 +30,10 @@ namespace My_diary
             this.Visibility = Visibility.Hidden;
             objMainWdw.Show();
         }
+
+        private void Login_txtBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }
