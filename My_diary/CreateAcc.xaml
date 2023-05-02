@@ -8,12 +8,12 @@
         Title="CreateAcc" Height="450" Width="800">
     <Grid Height="636" VerticalAlignment="Top" Margin="0,0,-71,0">
         <Label Content="&#x9;        MY DIARY " HorizontalAlignment="Center" Height="94" Margin="0,35,0,0" VerticalAlignment="Top" Width="664" AutomationProperties.Name="main_label" Background="#FFEED5F0" FontSize="36" FontFamily="Gill Sans Nova Light"/>
-        <TextBox x:Name="AccCr_log_txtBox" HorizontalAlignment="Left" Height="61" Margin="201,156,0,0" TextWrapping="Wrap" Text="Login" VerticalAlignment="Top" Width="242" FontSize="26" Background="#FFDBF7F7"/>
-        <TextBlock x:Name="AccCr_pswd_txtBox" HorizontalAlignment="Left" Height="60" Margin="201,240,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Width="242" FontSize="26" Background="#FFDBF7F6"/>
-        <TextBlock x:Name="AccCr_email_txtBox" HorizontalAlignment="Left" Height="60" Margin="201,322,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="242" FontSize="26" Background="#FFDBF7F6"><Run Language="pl-pl" Text="Email"/></TextBlock>
-        <Button x:Name="ok_cracc_btn" Content="CREATE" HorizontalAlignment="Left" Height="55" Margin="575,186,0,0" VerticalAlignment="Top" Width="129" Background="#FFDAF9CC"/>
+        <TextBox x:Name="AccCr_log_txtBox" HorizontalAlignment="Left" Height="61" Margin="206,183,0,0" TextWrapping="Wrap" Text="Login" VerticalAlignment="Top" Width="242" FontSize="26" Background="#FFDBF7F7"/>
+        <Button x:Name="ok_cracc_btn" Content="CREATE" HorizontalAlignment="Left" Height="55" Margin="575,186,0,0" VerticalAlignment="Top" Width="129" Background="#FFDAF9CC" Click="ok_cracc_btn_Click"/>
         <Button x:Name="cancel_cracc_btn" Content="CANCEL" HorizontalAlignment="Left" Height="55" Margin="573,263,0,0" VerticalAlignment="Top" Width="133" Background="#FFE4ACAC" Click="cancel_log_btn_Click"/>
         <Button x:Name="cr_acc_clear_btn" Content="CLEAR" HorizontalAlignment="Left" Margin="575,352,0,0" VerticalAlignment="Top" Height="50" Width="129" Click="cr_acc_clear_btn_Click"/>
+        <TextBox x:Name="AccCr_pswd_txtBox" HorizontalAlignment="Left" Height="61" Margin="206,263,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Width="242" FontSize="26" Background="#FFDBF7F7"/>
+        <TextBox x:Name="AccCr_email_txtBox" HorizontalAlignment="Left" Height="62" Margin="206,346,0,0" TextWrapping="Wrap" Text="Email" VerticalAlignment="Top" Width="242" FontSize="26" Background="#FFDBF7F7" AllowDrop="False"/>
 
     </Grid>
 </Window>
